@@ -13,10 +13,10 @@
 ##        	install poppler (in anaconda): conda install -c conda-forge poppler
 ##     
 ##     2) TesseractNotFoundError: tesseract is not installed or it's not in your PATH
-##        	#1: Download and install Tesseract OCR from: https://github.com/UB-Mannheim/tesseract/wiki
+##          #1: Download and install Tesseract OCR from: https://github.com/UB-Mannheim/tesseract/wiki
 ##          #2: After installing, find the folder "Tesseract-OCR" with "tesseract.exe" in it
 ##          #3: Copy the file location of "tesseract.exe" and set tesseract_cmd to this location, eg.: 
-##          	pt.pytesseract.tesseract_cmd = "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
+##              pt.pytesseract.tesseract_cmd = "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
 ##                         
 ##################################################################################################################
 
