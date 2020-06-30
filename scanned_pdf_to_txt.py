@@ -50,7 +50,7 @@ for page in pages:
     page.save(filename, 'JPEG') 
   
     # Increment the counter to update filename 
-    image_counter = image_counter + 1
+    image_counter += 1
 
 
 ### 3) - Read text from images using OCR ##
