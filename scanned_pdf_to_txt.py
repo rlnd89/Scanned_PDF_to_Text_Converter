@@ -8,7 +8,7 @@
 ##     - pip install pytesseract
 ##     - pip install pdf2image
 ## 
-## Troubleshooting possible error(s) when running the script:
+## Troubleshooting errors for Windows users:
 ##     1) PDFInfoNotInstalledError: Unable to get page count. Is poppler installed and in PATH?
 ##        	install poppler (in anaconda): conda install -c conda-forge poppler
 ##     
