@@ -20,12 +20,12 @@
 ##                         
 ##################################################################################################################
 
-### 1) Set parameters
-# Import libraries  
+### 0) Import libraries  
 from pdf2image import convert_from_path  # a wrapper to convert PDF to images
 import pytesseract as pt                 # OCR tool to recognize and “read” the text embedded in images
 import os                                # to use OS dependent functionality
 
+### 1) Set parameters
 # Locate tesseract
 pt.pytesseract.tesseract_cmd = "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
 
@@ -34,7 +34,7 @@ PDF_file = "D:\\PythonScripts\\Non-text-searchable.pdf"
 
 
 ### 2) Convert PDF to images
-# Store all pages of the PDF in a variable 
+# Store all pages of the PDF in a variable: the higher quality the better
 pages = convert_from_path(PDF_file, dpi=200, size=(1654,2340)) 
   
 # Counter to store images of each page of PDF to image 
