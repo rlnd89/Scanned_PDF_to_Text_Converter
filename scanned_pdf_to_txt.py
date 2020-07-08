@@ -57,7 +57,7 @@ for page in pages:
 # Variable to get count of total number of pages 
 filelimit = image_counter-1
   
-# Creating a text file to write the output 
+# Create text file to write the output 
 outfile = PDF_file.split('\\')[-1].split('.')[0] + ".txt"
   
 # Open the file in append mode so all contents of all images are added to the same file 
