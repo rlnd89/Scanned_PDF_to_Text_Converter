@@ -1,5 +1,4 @@
-# Scanned_PDF_to_Text_Converter
-Python | Scanned PDF to Text Converter using OCR
+# Python | Scanned PDF to Text Converter using OCR
 
 This repo contains code snippets and example files for the converter.
 1) scanned_pdf_to_txt.py - code snippet
